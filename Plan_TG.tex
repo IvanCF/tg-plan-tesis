@@ -16,6 +16,18 @@
 %\usepackage{longtable}       % Usado para diseñar grandes tablas.
 %\usepackage[round]{natbib} 
 \usepackage[numbers]{natbib}
+%%% este es para agregar enlaces automaticos a las referencias
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    %pdfpagemode=FullScreen,
+    }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{url}
 \urlstyle{same}
 \bibliographystyle{ieeetr}
@@ -43,7 +55,7 @@
 \begin{center}
   { \bf {\fontsize{17}{20.4} \selectfont{ Desarrollo de un sistema BMS – IoT y su influencia en el \\ 
   \vskip 0.2cm control automatizado del consumo eléctrico basado en el\\
-  \vskip 0.2cm protocolo MQTT en viviendas multifamiliares,\\
+  \vskip 0.2cm protocolo MQTT para viviendas multifamiliares,\\
   \vskip 0.2cm Trujillo 2023.}}  } 
 %\end{center}  
 
@@ -91,7 +103,7 @@
 
 
 \subsection{Título}
-Desarrollo de un sistema BMS – IoT y su influencia en el control automatizado del consumo eléctrico basado en el protocolo MQTT en viviendas multifamiliares, Trujillo 2023.
+Desarrollo de un sistema BMS – IoT y su influencia en el control automatizado del consumo eléctrico basado en el protocolo MQTT para viviendas multifamiliares, Trujillo 2023.
 
 \subsection{Autor(es)}
 %Indicar apellidos y nombres de los participantes:
@@ -136,7 +148,7 @@ Desarrollo de un sistema BMS – IoT y su influencia en el control automatizado 
                
 \subsubsection{Tema de investigación :} 
 
-El protocolo de red MQTT y su aplicación en soluciones IoT
+El protocolo de red MQTT \footnote{Message Queuing Telemetry Transport} y su aplicación en soluciones IoT
 
 \subsection{Localidad e Institución donde se desarrollará el proyecto }
 
@@ -152,7 +164,7 @@ Universidad Nacional de Trujillo / Facultad de ciencias físicas y matemáticas/
 
 \subsection{Duración del trabajo de tesis (Plan y desarrollo)}
 %Ejemplo:\\
-\hspace*{0.7cm}Del \hspace*{0.2cm}27/02/2023 \hspace*{0.3cm} AL\hspace*{0.2cm}27/05/2023  \hspace*{0.2cm}(03 meses)
+\hspace*{0.7cm}Del \hspace*{0.2cm}22/05/2023 \hspace*{0.3cm} AL\hspace*{0.2cm}22/08/2023  \hspace*{0.2cm}(03 meses)
  
 \subsection{Cronograma del trabajo de investigación y desarrollo}
 %\subsubsection{Cronograma del plan TG y avance del desarrollo TG (un ciclo) }
@@ -163,27 +175,27 @@ Universidad Nacional de Trujillo / Facultad de ciencias físicas y matemáticas/
 \begin{tabular}{|p{7.7cm}  |p{2.2cm} |p{2.2cm} |p{2cm}|}  \hline   
 \textit{{\bf{Etapas}}}  & \textit{{\bf{Fecha inicio}}} & \textit{{\bf{Fecha fin}}} & \textit{{\bf{Hs/semana}}}\\ \hline
 
-\vskip 0.1cm Búsqueda de material bibliográfico &  \vskip 0.1cm 27/02/2023
+\vskip 0.1cm Búsqueda de material bibliográfico &  \vskip 0.1cm 22/05/2023
 %\par 20/09/2016 
-& \vskip 0.1cm 04/03/2023
+& \vskip 0.1cm 27/05/2023
 %\par 05/05/2017 
 & \vskip 0.1cm 44  \\ \hline
-\vskip 0.1cm Adquisición de componentes. & \vskip 0.1cm 06/03/2023 & \vskip 0.1cm 11/03/2023 & \vskip 0.2cm 44  \\ \hline
+\vskip 0.1cm Adquisición de componentes. & \vskip 0.1cm 29/05/2023 & \vskip 0.1cm 03/06/2023 & \vskip 0.2cm 44  \\ \hline
 
-\vskip 0.1cm Diseño y estudio de la red.  &\vskip 0.2cm 13/03/2022 &\vskip 0.2cm 18/03/2022 & \vskip 0.2cm 44 \\ \hline
+\vskip 0.1cm Diseño y estudio de la red.  &\vskip 0.2cm 05/06/2022 &\vskip 0.2cm 10/06/2022 & \vskip 0.2cm 44 \\ \hline
 
-\vskip 0.1cm Diseño y desarrollo del módulo principal I &\vskip 0.2cm 20/03/2023 &\vskip 0.2cm 25/03/2023 & \vskip 0.2cm 44 \\ \hline
+\vskip 0.1cm Diseño y desarrollo del módulo principal I &\vskip 0.2cm 12/06/2023 &\vskip 0.2cm 17/06/2023 & \vskip 0.2cm 44 \\ \hline
 
 
-\vskip 0.1cm Diseño y desarrollo del módulo principal II. &\vskip 0.2cm 27/03/2023 &\vskip 0.2cm 01/04/2023 & \vskip 0.2cm 44 \\ \hline
+\vskip 0.1cm Diseño y desarrollo del módulo principal II. &\vskip 0.2cm 19/06/2023 &\vskip 0.2cm 24/06/2023 & \vskip 0.2cm 44 \\ \hline
 
-\vskip 0.1cm Diseño e implementación del software web. &\vskip 0.2cm 03/04/2023 &\vskip 0.2cm 08/04/2023 & \vskip 0.2cm 44 \\ \hline
+\vskip 0.1cm Diseño e implementación del software web. &\vskip 0.2cm 26/06/2023 &\vskip 0.2cm 01/07/2023 & \vskip 0.2cm 44 \\ \hline
 
-\vskip 0.1cm Diseño y desarrollo del módulo de consumo. &\vskip 0.2cm 10/04/2023 &\vskip 0.2cm 15/04/2023 & \vskip 0.2cm 44 \\ \hline
+\vskip 0.1cm Diseño y desarrollo del módulo de consumo. &\vskip 0.2cm 03/07/2023 &\vskip 0.2cm 08/07/2023 & \vskip 0.2cm 44 \\ \hline
 
-\vskip 0.1cm Diseño y desarrollo del módulo actuador.  &\vskip 0.2cm 17/04/2023 &\vskip 0.2cm 22/04/2023 & \vskip 0.2cm 44 \\ \hline
+\vskip 0.1cm Diseño y desarrollo del módulo actuador.  &\vskip 0.2cm 10/07/2023 &\vskip 0.2cm 15/07/2023 & \vskip 0.2cm 44 \\ \hline
 
-\vskip 0.1cm Diseño y desarrollo del módulo Integrador I  &\vskip 0.2cm 24/04/2023 &\vskip 0.2cm 29/04/2023 & \vskip 0.2cm 44 \\ \hline
+\vskip 0.1cm Diseño y desarrollo del módulo Integrador I  &\vskip 0.2cm 17/07/2023 &\vskip 0.2cm 22/07/2023 & \vskip 0.2cm 44 \\ \hline
 
 
 \end{tabular}
@@ -200,13 +212,13 @@ Universidad Nacional de Trujillo / Facultad de ciencias físicas y matemáticas/
 \begin{tabular}{|p{7.7cm}  |p{2.2cm} |p{2.2cm} |p{2cm}|}  \hline   
 \textit{{\bf{Etapas}}}  & \textit{{\bf{Fecha inicio}}} & \textit{{\bf{Fecha término}}} & \textit{{\bf{Hs/semana}}}\\ \hline
 
-\vskip 0.1cm Diseño y desarrollo del módulo Integrador II  &\vskip 0.2cm 01/05/2023 &\vskip 0.2cm 06/05/2023 & \vskip 0.2cm 44 \\ \hline
+\vskip 0.1cm Diseño y desarrollo del módulo Integrador II  &\vskip 0.2cm 24/07/2023 &\vskip 0.2cm 29/07/2023 & \vskip 0.2cm 44 \\ \hline
 
-\vskip 0.1cm Integración del sistema.  &\vskip 0.2cm 08/05/2023 &\vskip 0.2cm 13/05/2023 & \vskip 0.2cm 44 \\ \hline
+\vskip 0.1cm Integración del sistema.  &\vskip 0.2cm 31/07/2023 &\vskip 0.2cm 05/08/2023 & \vskip 0.2cm 44 \\ \hline
 
-\vskip 0.1cm Testing en sistema local. & \vskip 0.1cm 15/05/2023 & \vskip 0.1cm 20/05/2023 & \vskip 0.2cm 44  \\ \hline
+\vskip 0.1cm Testing en sistema local. & \vskip 0.1cm 07/08/2023 & \vskip 0.1cm 12/08/2023 & \vskip 0.2cm 44  \\ \hline
 
-\vskip 0.1cm Testing en sistema remoto.  &\vskip 0.2cm 22/05/2023 &\vskip 0.2cm 27/05/2023 & \vskip 0.2cm 44 \\ \hline
+\vskip 0.1cm Testing en sistema remoto.  &\vskip 0.2cm 14/08/2023 &\vskip 0.2cm 22/08/2023 & \vskip 0.2cm 62 \\ \hline
 
 
 \end{tabular}
@@ -236,11 +248,13 @@ Autofinanciamiento por parte de los autores.
 \section{PLAN DE INVESTIGACIÓN}
 
 \subsection{Introducción}
-La tecnología de automatización orientada a viviendas y lugares de trabajo está tomando cada vez mayor relevancia en nuestras vidas, aunque existe una gran variedad de soluciones que ofrecen dotar de tecnología a ciertos elementos en un ambiente doméstico, su principal desventaja es que casi siempre la recolección de datos se realiza con sensores que dependen de una conexión a Internet para enviar sus valores a un servidor central para su gestión. Esta forma de trabajo permite la facilidad de uso pero con la desventaja de que la gestión funciona solo si existe conexión a Internet, además los sensores más comerciales del mercado actual están destinados a un uso independiente con su propia aplicación móvil, complicando la necesidad de tener una única solución centralizada ante el uso de múltiples sensores.
+La tecnología de automatización orientada a viviendas y lugares de trabajo está tomando cada vez mayor relevancia en nuestras vidas, aunque existe una gran variedad de soluciones que ofrecen dotar de tecnología a ciertos elementos en un ambiente doméstico, su principal desventaja es que casi siempre la recolección de datos se realiza con sensores que dependen de una conexión a Internet para enviar sus valores a un servidor central para su gestión. Esta forma de trabajo permite la facilidad de uso pero con la desventaja de que la gestión funciona solo si existe conexión a Internet, además los sensores más comerciales del mercado actual y de costo accesible están destinados a un uso independiente con su propia aplicación móvil, complicando la necesidad de tener una única solución centralizada ante el uso de múltiples sensores. Las soluciones comerciales que permiten centralizar y unificar resultados son aquellos que tienen un alto costo y necesitan muchos requerimientos y configuraciones para poderse adaptar al entorno del hogar, esto porque dichas soluciones están destinadas en mayor porcentaje al ámbito industrial.
 
 \vspace{0.25cm}
-El presente proyecto se destaca especialmente por centralizar y unificar resultados de la red de sensores en un sistema web principal de monitoreo y control sin depender de la conexión a Internet para su funcionamiento. Para lograr esta tarea se trabajará con la recolección de datos de sensores ubicados en distintos puntos de estudio de una vivienda o ambiente conectados a una red local dedicada. Cada una de las lecturas de los sensores serán enviadas a una unidad central local mediante el protocolo MQTT por vía inalámbrica, dejando la dependencia del Internet solo para los accesos remotos.
+El presente trabajo se destaca especialmente por el desarrollo de un sistema de gestión de edificios o BMS (\emph{Building Management System}) para centralizar y unificar resultados de la red de sensores de consumo eléctrico en una vivienda  multifamiliar. Para lograr esta tarea se trabajará con la recolección de datos de sensores ubicados en distintos puntos de estudio de una vivienda o ambiente conectados a una red local dedicada. Cada una de las lecturas de los sensores serán enviadas a una unidad central  de monitoreo y control local mediante el protocolo MQTT por vía inalámbrica, dejando la dependencia del Internet solo para los accesos remotos.
 
+
+\vspace{2.0cm}
 \subsection{Realidad problemática}
 Al encender cualquier dispositivo eléctrico u electrónico se produce un consumo de energía eléctrica que normalmente se desconoce. Simplemente a fin de mes se recibe la factura con el total consumido y el monto a pagar. El control del consumo de manera precisa no está normalizado en el ámbito doméstico y se reconoce como un aspecto aún por mejorar. Este control es muy importante ya que gracias a él se puede mejorar en la gestión de la eficiencia energética, ahorrando dinero para una familia o una empresa y a la vez respectando el medio ambiente.
 
@@ -252,7 +266,7 @@ Bajo ese contexto antes y durante la pandemia por el COVID-19, se registraron mi
 
 \begin{figure}[ht]
 \begin{center}
-\includegraphics[width=0.65\textwidth]{motivacion}
+\includegraphics[width=0.9\textwidth]{motivacion}
 \end{center}
 \begin{center}
 \vskip -0.5cm
@@ -267,115 +281,41 @@ Entre el 16 de marzo y fines de junio de 2020, cuando el gobierno peruano declar
 
 \subsection{Antecedentes}
 % y fundamentación científica, técnica o humanística}
-En la actualidad existe una amplia variedad de sistemas relacionados a los BMS ofrecidos por empresas multinacionales tales como las que se describen a continuación:
+En la actualidad existe una amplia variedad de sistemas relacionados a los BMS ofrecidos por empresas multinacionales e investigaciones de propuestas de sistemas BMS con enfoque en múltiples variables del entorno habitacional, comercial, salud, etc., siendo la energía eléctrica uno de los aspectos mas resaltados por la importancia que su uso conlleva. Las investigaciones mas importantes revisadas para este trabajo se describen a continuación:
 
+\subsubsection{Nacionales}
 \begin{itemize}
 
-\item {Energy manager - Centraline}: solución de \emph{software} para gestión del consumo de energía.
+\item La tesis de grado de la Universidad Nacional Tecnológica de Lima Sur - Perú, desarrollada por Alvarado Peña y Cristhian Antonio Sammy en 2018, titulada \textbf{“diseño e implementación de un BMS para el mantenimiento y ahorro energético de un hospital de la Región de San Martin”} \citep{TESIS01}, define que los consumos de energía y costos en mantenimientos de los equipos electromecánicos, eléctricos y electrónicos en los hospitales en función al tiempo son cada vez más altos y difíciles de predecir. Se estima que el 40\% de energía mundial se consume en edificios y que el 75\% de los costos son por mantenimientos y gastos de explotación. 
 
-%\vspace{0.25cm}
-Es una nueva herramienta de \emph{software} de gestión energética profesional con el fin de lograr un ahorro importante y maximizar la eficiencia energética. El sistemas se ilustra con la figura \ref{fig:energy-vision} 
+Los hospitales están comprendidos por subsistemas como sub estación eléctrica, tableros eléctricos, grupos electrógeno, sistema de alimentación ininterrumpida, cuarto de bombas de agua, sistema de tratamiento de agua residuales, aire acondicionado, ventilación, paneles solares, gases medicinales y sistemas de seguridad como sistema de incendio, sistema de CCTV y control accesos, los cuales demandan un gran consumo de energía eléctrica y costos en mantenimientos para la continuidad del funcionamiento del Hospital.
 
-\begin{figure}[ht]
-\begin{center}
-\includegraphics[width=0.7\textwidth]{energy-vision}
-\end{center}
-\begin{center}
-\vskip -0.5cm
-\caption{\small{Elementos del sistema Energy manager.}}
-\label{fig:energy-vision}
-{\small{Fuente: \citep{WEBSITE:13}}}
-\end{center}
-\end{figure}
+
+En dicha tesis se describe el diseño e implementación de un BMS con el objetivo de optimizar el funcionamiento de los subsistemas que comprenden un centro de salud y así disminuir los costos de energía mediante controladores y software especializado que integren todos los subsistemas comprendidos en un hospital para su gestión, control y monitoreo en tiempo real.
+
 
 %------------------------------
-\item {Iammeter}: sistema de monitoreo de energía.
+\item La tesis de grado de la Universidad Nacional de Piura - Perú, desarrollado por Luis Gustavo Nima Castillo en 2019, titulada \textbf{“diseño de un sistema de gestión de edificios BMS, que integra sistemas de seguridad electrónica, electromecánicos y comunicación ethernet para el laboratorio de ingeniería electrónica de la Universidad Nacional de Piura”}\citep{TESIS02}, busca diseñar un sistema de gestión o administración de edificios aplicando el concepto de BMS que integre sistemas de seguridad electrónica (control de acceso, detección de incendios, CCTV, alarma e intrusión, entre otros) con sistemas electromecánicos (eléctricos, sanitarios, mecánicos) para monitorear, controlar y gestionar la información que se genera a través de redes de comunicación ethernet y protocolos industriales estándares, tales como: Modbus, Bacnet, Lonwork, Dali, Knx, etc.
 
-%\vspace{0.2cm}
-Es un sistema de monitoreo de energía dedicado, al que se puede conectar medidores de energía Wi-Fi y luego comenzar a rastrear el uso de electricidad de su hogar o edificio comercial, y monitorear el flujo de energía del sistema fotovoltaico solar \citep{WEBSITE:11}.
-%\vspace{0.15cm}
-El sistema Iammeter puede generar un análisis integral del consumo de energía por usuarios, ofreciendo gráficos de datos y algunos detalles en el panel de información general. Ofrece el cálculo de la factura de la luz diaria/mensual y monitoreo en tiempo real del uso de electricidad \citep{WEBSITE:12}. El sistema se ilustra con la figura \ref{fig:iammeter}.
+Dicha tesis plantea una solución mediante un sistema BMS el cual integra sensores, actuadores, controladores, monitoreo/supervisión y una red de datos TCP/IP para la gestión de la información proveniente de los controladores, con la finalidad que nos permita gestionar la seguridad de las instalaciones del laboratorio de ingeniería electrónica de la universidad nacional de Piura.
+ 
 
-\begin{figure}[ht]
-\begin{center}
-\includegraphics[width=0.65\textwidth]{iammeter}
-\end{center}
-\begin{center}
-\vskip -0.5cm
-\caption{\small{Elementos del sistema Iammeter.}}
-\label{fig:iammeter}
-{\small{Fuente: \citep{WEBSITE:11}}}
-\end{center}
-\end{figure}
-
-Se puede acceder sistema desde todo tipo de dispositivos mediante un navegador con Internet o mediante su aplicación móvil.
-
+\end{itemize}
 %------------------------
+\subsubsection{Internacionales}
 
-\item {Bee2energy}: es una solución IoT basada en la nube a la que se puede acceder en cualquier momento y en cualquier lugar a través de Internet. Brinda operaciones en tiempo real con un modelo de negocio SaaS (\emph{\emph{software} as a service}) flexible y con capacidad multicanal \citep{WEBSITE:14}. Las funciones de control en edificios se ilustra con la figura \ref{fig:bee2energy2}.
+\begin{itemize}
+\item La tesis de maestría de la Universidad Autónoma de Occidente - Colombia, desarrollada por Mauricio Moreno Plazas en 2019, titulada \textbf{“metodología para la aplicación de sistemas BMS y BEMS para la operación eficiente de edificios”}\citep{TESIS03}, define que los sistemas BMS/BEMS pueden mejorar la gestión sobre los edificios al contar con herramientas de monitoreo y control en tiempo real, los cuales ayudan a detectar fallas oportunamente o estados de operación en rangos no deseados de los subsistemas del edificio tales como el sistema de aire acondicionado, sistema de iluminación, sistemas de bombeo, equipos de misión crítica, sistema eléctrico, etc., generando eficiencias energéticas y operativas en las edificaciones. Teniendo en cuenta que la demanda de la construcción de edificios plantea la necesidad de buscar que los edificios operen de forma eficiente debido a que estos representan entre el 20\% y el 40\% de la energía eléctrica consumida en las ciudades.
+
+\item La tesis de maestría de la Universidad de Buenos Aires - Argentina, desarrollada por Matías Alvarez en 2020, titulada \textbf{“Sistema de gestión de edificios”} \citep{TESIS04}, detalla la implementación de un sistema BMS de manejo de edificios, realizado para la empresa WeHaus S.A. y contempla las etapas de monitoreo, supervisión y control de distintas variables y dispositivos, ejecución de reglas y envió de alertas asociadas.
+
+Plantea un primer prototipo operativo de un BMS más enfocado en la programación de un sistema embebido distribuido a través de una red ModBus comandado remotamente mediante el protocolo MQTT.
 
 
-\begin{figure}[ht]
-\begin{center}
-\includegraphics[width=0.7\textwidth]{bee2energy}
-\end{center}
-\begin{center}
-\vskip -0.5cm
-\caption{\small{Elementos del sistema Bee2energy.}}
-\label{fig:bee2energy2}
-{\small{Fuente: \citep{WEBSITE:14}}}
-\end{center}
-\end{figure}
 
-Ofrece monitoreo en tiempo real de consumos, temperaturas, humedad y otros indicadores, configuración de reglas y encender / apagar equipos automáticamente o configurar alarmas y notificaciones.
 \end{itemize}
 
-
-%----------------------------------
-Estos BMS fueron tenidos en cuenta para la toma de decisiones durante el desarrollo del proyecto, y por ello se resumen algunas de sus características en las tablas \ref{tab:tabla2} y \ref{tab:tabla3}:
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%escribir texto 2
-
-\begin{table}[h]
-	\centering
-	\caption[Comparativa de soluciones entre acceso y servidor]{Comparativa acceso y tipo de servidor.}
-	\begin{tabular}{l c c c c }    
-		\toprule
-		\textbf{Producto} & \textbf{Acceso} & \textbf{Servidor  local}   & \textbf{Servidor remoto} \\
-		\midrule
-		Energy Manager & local y remoto 	& no & sí  \\		
-		Iammeter	 & local y remoto	& no & sí  \\
-		Bee2energy	 & local y remoto	& no & sí  \\
-		\bottomrule
-		\hline
-	\end{tabular}
-	\label{tab:tabla2}
-\end{table}
-
-%\vspace{1cm}
-%\vspace{1cm}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%escribir texto 3
-
-\begin{table}[h]
-	\centering
-	\caption[Comparativa de soluciones entre protocolos y hardware]{Comparativa protocolos y tipos de hardware.}
-	\begin{tabular}{l p{4.5cm} p{4cm} p{2cm}}    
-		\toprule
-		\textbf{Producto} 	 & \textbf{Protocolos}  & \textbf{ Sensores} & \textbf{Actuadores}  \\
-		\midrule
-		Energy manager & Modbus, M-Bus  y TCP/IP 	& propietario & propietario \\		
-		Iammeter	 & MQTT y TCP/IP	& propietario /comercial & propietario\\
-		Bee2energy	 & múltiples protocolos IoT		& propietario /comercial & propietario\\
-		\bottomrule
-		\hline
-	\end{tabular}
-	\label{tab:tabla3}
-\end{table}
 
 
 
@@ -386,21 +326,25 @@ Estos BMS fueron tenidos en cuenta para la toma de decisiones durante el desarro
 
 \subsection{Justificación}
 
-Las necesidades de crear sistemas autómatas que permitan el control, seguridad, ahorro de energía y comunicación, son prestaciones que aportan valor añadido a la gestión técnica en los proyectos de edificaciones para los sectores público y privado creando entornos y ambientes que facilitan la habitabilidad y uso de una infraestructura moderna que aprovecha y hace uso de los diversos avances tecnológicos.
+Las necesidades de crear sistemas autónomos que permitan el control, seguridad, ahorro de energía y comunicación, son prestaciones que aportan valor añadido a la gestión técnica en los proyectos de edificaciones para los sectores público y privado creando entornos y ambientes que facilitan la habitabilidad y uso de una infraestructura moderna que aprovecha y hace uso de los diversos avances tecnológicos.
 
-\vspace{0.25cm}
+\vspace{0.3cm}
 El desarrollo sostenible del país, ha permitido que en las últimas décadas los sectores productivos, tales como la industria, la construcción, la minería, entre otros, experimenten un auge y crecimiento de proyectos de inversión pública y privada. Para lo cual se genera la necesidad de contar con profesionales altamente capaces de aprovechar y desarrollar los diversos medios, elementos y avances tecnológicos en beneficio de la sociedad y los sectores productivos del país. \citep{ARTICLE:2}.
 
-\vspace{0.25cm}
-Por lo mencionado en los párrafos anteriores nuestra labor como profesionales con bases tecnológicas y científicas es crear los medios que permita acercar la tecnología a las personas, brindándoles un abanico de soluciones cada vez más amigables e informativas para que puedan conocer y usar. Por tanto, este proyecto busca ser una alternativa para aquellas personas que buscan una solución de automatización inteligente para sus viviendas u oficinas, así como brindarles la capacidad de interconexión de sus dispositivos por medio de nuestra plataforma.
+\vspace{0.3cm}
+%Por lo mencionado en los párrafos anteriores 
+Nuestra labor como profesionales con bases tecnológicas y científicas es acercar la tecnología a las personas, brindándoles un abanico de soluciones cada vez más amigables e informativas para que puedan conocer y usar. Este proyecto busca una solución de automatización inteligente para sus viviendas u oficinas, así como brindarles la capacidad de interconexión de sus dispositivos por medio de nuestra plataforma.
+
+\vspace{0.4cm}
+
 
 
 \subsection{Problema}
-¿De qué manera el desarrollo de un sistema BMS – IoT influye en el control automatizado del consumo eléctrico basado en el protocolo MQTT en viviendas multifamiliares, Trujillo 2023? 
+¿De qué manera el desarrollo de un sistema BMS – IoT influye en el control automatizado del consumo eléctrico basado en el protocolo MQTT para viviendas multifamiliares, Trujillo 2023? 
 
 
 \subsection{Hipótesis}
-El desarrollo de un sistema BMS – IoT influirá significativamente en el control automatizado del consumo eléctrico basado en el protocolo MQTT en viviendas multifamiliares, Trujillo 2023.  
+El desarrollo de un sistema BMS – IoT influirá significativamente en el control automatizado del consumo eléctrico basado en el protocolo MQTT para viviendas multifamiliares, Trujillo 2023.  
 
 
 \subsection{Variables}
@@ -423,12 +367,12 @@ El desarrollo de un sistema BMS – IoT influirá significativamente en el contr
 \vskip 0.2cm 
 \subsubsection{Objetivo general}
 \begin{itemize}
-\item Desarrollar un sistema BMS - IoT para el control automatizado del consumo eléctrico basado en el protocolo MQTT en viviendas multifamiliares, Trujillo 2023.
+\item Desarrollar un sistema BMS - IoT para el control automatizado del consumo eléctrico basado en el protocolo MQTT para viviendas multifamiliares, Trujillo 2023.
 \end{itemize}
 
 \subsubsection{Objetivos específicos}
 \begin{enumerate}
-\item Diseñar una red IoT para un sistema BMS considerando las variables existentes en las viviendas multifamiliares.
+\item Diseñar e implementar una red IoT para un sistema BMS considerando las variables existentes en las viviendas multifamiliares.
 \item Diseñar e Implementar la interfaz de comunicación y toma de datos de los sensores de forma simultanea mediante comunicación inalámbrica con el protocolo MQTT.
 \item Diseñar e Implementar un módulo integrador - replicador de comunicación entre la red interna y la comunicación en la nube.
 \item Diseñar e Implementar los módulos electrónicos con sensores y actuadores, para medir el consumo eléctrico doméstico.
@@ -456,7 +400,7 @@ Para lograr el objetivo se seguirá el flujo de trabajo ilustrado en la figura \
 
 \begin{figure}[ht]
 \begin{center}
-\includegraphics[width=0.82\textwidth]{AoN}
+\includegraphics[width=1.0\textwidth]{AoN}
 \end{center}
 \begin{center}
 \vskip -0.5cm
@@ -488,8 +432,8 @@ Para lograr el objetivo se seguirá el flujo de trabajo ilustrado en la figura \
 %\end{enumerate}
     
 
-
-
+\vspace{5.0cm}
+\vspace{5.0cm}
 %\subsection{Referencias}
 %Presentar bibliografía conforme a las normas técnicas internacionales reconocidas: Un solo estilo American Psychological Association - APA. Seguir exactamente la forma de las referencias dadas como ejemplos. No usar numeros entre corchetes. Ver los ejemplos de las referencias dadas abajo.\par
 \vskip 0.3cm
@@ -501,8 +445,8 @@ Para lograr el objetivo se seguirá el flujo de trabajo ilustrado en la figura \
 \vskip 1cm
 \vskip 1cm
 \vskip 1cm
-\vskip 1cm
-\vskip 1cm
+
+
 
 \hspace{0.7cm}Daniel\hspace{.1cm}I.\hspace{.1cm} Cruz\hspace{.1cm}Flores 
 \hspace{4cm}Leoncio\hspace{.1cm}M.\hspace{.1cm} Moya\hspace{.1cm}Carranza \\
